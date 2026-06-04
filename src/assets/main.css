@@ -1,0 +1,39 @@
+.title-font {
+  font-family: 'Roboto Mono', monospace;
+}
+
+.hero-parallax .v-img__img {
+  filter: brightness(0.35);
+}
+
+.hero-overlay {
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.75),
+    rgba(0, 0, 0, 0.85)
+  );
+}
+
+.cta-sheet {
+  background: linear-gradient(90deg, #7f1d1d, #000 50%, #09090b);
+  border-block: 4px solid rgb(var(--v-theme-primary));
+}
+
+.fleet-card {
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+
+.fleet-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(220, 38, 38, 0.25);
+}
+
+.border-red {
+  border-bottom: 1px solid rgb(var(--v-theme-primary)) !important;
+}
+
+code {
+  font-size: 0.85em;
+  padding: 0.1em 0.35em;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.08);
+}
