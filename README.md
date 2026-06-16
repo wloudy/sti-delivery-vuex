@@ -63,15 +63,6 @@ node node_modules/vite/bin/vite.js
 
 Сборка: `npm run build`
 
-## Публикация на GitHub
-
-```bash
-git add .
-git commit -m "STI RUSH: Vue Router + Vuex + Vuetify"
-git push
-```
-
-Репозиторий должен быть **public**.
 
 ## Структура
 
